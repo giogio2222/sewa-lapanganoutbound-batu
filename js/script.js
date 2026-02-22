@@ -76,15 +76,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // 5. Scroll Reveal Effect (Simple)
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('reveal-active');
-            }
-        });
-    }, { threshold: 0.1 });
-
-    document.querySelectorAll('.card-outbound').forEach(el => observer.observe(el));
-
 });

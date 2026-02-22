@@ -3,4 +3,4 @@ Allow: /
 Disallow: /private/
 Disallow: /admin/
 
-Sitemap: https://sewalapanganoutboundbatu.com/sitemap.xml
+Sitemap: https://sewa-lapanganoutbound-batu.vercel.app/sitemap.xml
